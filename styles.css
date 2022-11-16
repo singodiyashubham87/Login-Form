@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #CDF0EA;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+/* username button */
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* password button */
+.bottom {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* SignIn button */
+.newAccount {
+    margin-top: 303px;
+}

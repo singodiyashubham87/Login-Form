@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple coding asssessment website.">
+    <meta name="Master_Mickey" content="Shubham Singodiya">
+    <meta name="theme-color" content="#712cf9">
+
+    <title>Aspirant Login</title>
+
+    <!-- Fonts, Bootstrap example template, bootstrap css, bootstrap javascript and author's stylesheet add -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome icons included -->
+    <script src="https://kit.fontawesome.com/523fdc4846.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="text-center">
+
+    <main class="form-signin w-100 m-auto">
+        <div class="fullContent">
+
+            <img class="mb-4" src="images/user_avatar.png" alt="" width="60" height="60">
+            <h1 class="h3 mb-3 fw-normal" required>User Login</h1>
+
+            <form >
+            <div class="form-floating">
+                <input type="text" class="form-control top" id="floatingFName" name="username" autofocus required>
+                <label for="floatingFName" >Username</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="password" class="form-control bottom" id="floatingFName" name="password" autofocus required>
+                <label for="floatingFName">Password</label>
+            </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit" id="signInButton"
+                    style="  font-family: 'Poppins', sans-serif;">Sign in</button>
+            </form>
+
+            <a class="newAccount" href="signup.html">Create New Account</a>
+            <p class="mt-5 mb-3 text-muted">&copy; Master Mickey</p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

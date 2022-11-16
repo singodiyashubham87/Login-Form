@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #CDF0EA;
+    margin-top: 6rem;
+}
+
+/* create account button */
+.btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* main tag styling */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+/* adjustment of button radius */
+.btnradius {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+/* Top and bottom button corner radius adjustment */
+.top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* Signin anchor tag */
+.newAccount {
+    margin-top: 303px;
+}
+
+
+.credit {
+    width: 1005;
+}
